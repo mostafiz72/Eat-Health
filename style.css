@@ -69,3 +69,44 @@ header{
     border: none;
     cursor: pointer;
 }
+
+
+/* <!-- about section start here now --> */
+/* <!-- about section start here now --> */
+
+.about{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 8rem 0rem;
+}
+
+.about-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image{
+    width: 45%;
+}
+
+.about-image img{
+    width: 100%;
+}
+
+.about-desc{
+    width: 40%;
+}
+
+.about-desc h2{
+    font-size: var(--title-size);
+    color: var(--primary-color);
+}
+
+.about-desc p{
+    font-size: var(--desc-size);
+    margin: 20px 0px;
+    line-height: 25px;
+}
