@@ -1,0 +1,32 @@
+@media screen and (max-width: 956px){
+    .header-desc{
+        width: 55%;
+    }
+}
+@media screen and (max-width: 750px){
+    .header-img{
+        width: 45%;
+    }
+
+    .header-desc h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 570px){
+    .header-benner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-desc{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .header-img{
+        width: 100%;
+    }
+    .bbtn{
+        text-align: center;
+    }
+
+}
