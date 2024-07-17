@@ -165,3 +165,26 @@ header{
     width: 100%;
     text-align: left;
 }
+
+/* contibutions section start  here now */
+/* contibutions section start  here now */
+
+.contibutions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    width: 83%;
+    margin: 20px auto;
+    box-shadow: 0px 0px 8px rgb(219, 205, 205);
+    border-radius: 10px;
+}
+
+.contibutions h2{
+    font-size: var(--title-size);
+}
+
+.contibutions p{
+    font-size: 12px;
+    padding: 10px 0px;
+}
