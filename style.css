@@ -188,3 +188,30 @@ header{
     font-size: 12px;
     padding: 10px 0px;
 }
+
+
+/*  footer section start here now */
+/*  footer section start here now */
+
+
+footer{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+footer h1{
+    font-size: var(--title-size);
+    padding: 20px 0px;
+    color: var(--primary-color)
+}
+
+footer span{
+    color: rgb(252, 76, 46);
+}
+footer p{
+    font-size: var(--desc-size);
+    color: rgb(177, 175, 175);
+}
